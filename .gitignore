@@ -1,0 +1,13 @@
+# ignore files that generate Jetbrains (java Ide)
+*.iml
+*.ipr
+*.iws
+.idea/
+out/
+target/
+
+## Mac
+.DS_Store
+
+## Win
+Desktop.ini
