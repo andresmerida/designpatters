@@ -131,3 +131,21 @@ Some of the adapter design pattern example I could easily find in JDK classes ar
 * java.util.Arrays#asList()
 * java.io.InputStreamReader(InputStream) (returns a Reader)
 * java.io.OutputStreamWriter(OutputStream) (returns a Writer)
+
+## Bridge Design Pattern in Java (Structural Design Pattern)
+
+Today we will look into Bridge Design Pattern in java. When we have interface hierarchies in both interfaces 
+as well as implementations, then bridge design pattern is used to decouple the interfaces from implementation 
+and hiding the implementation details from the client programs.
+
+According to GoF bridge design pattern is: 
+
+Decouple an abstraction from its implementation so that the two can vary independently
+
+Bridge design pattern can be used when both abstraction and implementation can have different hierarchies 
+independently and we want to hide the implementation from the client application.
+
+Good reference: https://www.journaldev.com/1491/bridge-design-pattern-java
+
+We can see the example implement in the package: com.practices.patterns.bridge
+    
