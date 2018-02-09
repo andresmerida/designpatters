@@ -114,3 +114,20 @@ Then do the manipulations that would have been resource and time consuming.
 
 You can see two samples program showing Prototype design pattern example in java:
     package: com.practices.patterns.prototype
+    
+## Adapter Design Pattern in Java (Structural Design Pattern)
+
+Adapter design pattern is one of the structural design pattern and its used so that two unrelated interfaces can work 
+together. The object that joins these unrelated interface is called an Adapter.
+
+One of the great real life example of Adapter design pattern is mobile charger. Mobile battery needs 3 volts to charge 
+but the normal socket produces either 120V (US) or 240V (India). So the mobile charger works as an adapter 
+between mobile charging socket and the wall socket.
+
+#### Adapter Design Pattern Example in JDK
+
+Some of the adapter design pattern example I could easily find in JDK classes are;
+
+* java.util.Arrays#asList()
+* java.io.InputStreamReader(InputStream) (returns a Reader)
+* java.io.OutputStreamWriter(OutputStream) (returns a Writer)
