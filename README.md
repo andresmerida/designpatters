@@ -165,3 +165,5 @@ We have a class Employee which acts as composite pattern actor class. CompositeP
 our demo class will use Employee class to add department level hierarchy and print all employees.
 
 ![screen shot 2018-02-09 at 12 35 00 pm](https://user-images.githubusercontent.com/6967921/36038671-b6f3c782-0d96-11e8-9aeb-56a5d5a37d38.png)
+
+You can see this example in the package: com.practices.patterns.composite
