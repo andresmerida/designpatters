@@ -1,6 +1,6 @@
 ## **Java Design Patterns**
 
-## Singleton Design Pattern in Java (Creational Pattern)
+## **Singleton** Design Pattern in Java (Creational Pattern)
 
 Java Singleton Pattern is one of the Gangs of Four Design patterns and comes in the Creational Design Pattern category. 
 From the definition, it seems to be a very simple design pattern but when it comes to implementation, it comes 
@@ -29,7 +29,7 @@ https://www.journaldev.com/1377/java-singleton-design-pattern-best-practices-exa
 You can see three examples explained in the package: com.practices.patterns.singleton;
 
 
-## Factory Design Pattern in Java (Creational Pattern)
+## **Factory** Design Pattern in Java (Creational Pattern)
 
 Factory Pattern is one of the Creational Design pattern and it’s widely used in JDK as well as frameworks like Spring and Struts.
 
@@ -53,7 +53,7 @@ Super class in factory design pattern can be an interface, abstract class or a n
 
 You can see three examples in package: com.practices.patterns.factory
 
-## Builder Design Pattern in Java (Creational Pattern)
+## **Builder** Design Pattern in Java (Creational Pattern)
 
 Builder pattern was introduced to solve some of the problems with Factory and Abstract Factory design patterns 
 when the Object contains a lot of attributes.
@@ -93,7 +93,7 @@ Some of the builder pattern example in Java classes are;
 
 You can see an example in the package: com.practices.patterns.builder
 
-## Prototype Design Pattern in Java (Creational Pattern)
+## **Prototype** Design Pattern in Java (Creational Pattern)
 
 Prototype design pattern is one of the Creational Design pattern, so it provides a mechanism of object creation.
 
@@ -115,7 +115,7 @@ Then do the manipulations that would have been resource and time consuming.
 You can see two samples program showing Prototype design pattern example in java:
     package: com.practices.patterns.prototype
     
-## Adapter Design Pattern in Java (Structural Design Pattern)
+## **Adapter** Design Pattern in Java (Structural Design Pattern)
 
 Adapter design pattern is one of the structural design pattern and its used so that two unrelated interfaces can work 
 together. The object that joins these unrelated interface is called an Adapter.
@@ -132,7 +132,7 @@ Some of the adapter design pattern example I could easily find in JDK classes ar
 * java.io.InputStreamReader(InputStream) (returns a Reader)
 * java.io.OutputStreamWriter(OutputStream) (returns a Writer)
 
-## Bridge Design Pattern in Java (Structural Design Pattern)
+## **Bridge** Design Pattern in Java (Structural Design Pattern)
 
 Today we will look into Bridge Design Pattern in java. When we have interface hierarchies in both interfaces 
 as well as implementations, then bridge design pattern is used to decouple the interfaces from implementation 
@@ -149,7 +149,7 @@ Good reference: https://www.journaldev.com/1491/bridge-design-pattern-java
 
 We can see the example implement in the package: com.practices.patterns.bridge
     
-## Composite Design Pattern in Java (Structural Design Pattern)
+## **Composite** Design Pattern in Java (Structural Design Pattern)
 
 Composite pattern is used where we need to treat a group of objects in similar way as a single object. 
 Composite pattern composes objects in term of a tree structure to represent part as well as whole hierarchy. 
@@ -183,3 +183,26 @@ objects based on various criteria and their combinations.
 ![screen shot 2018-02-10 at 9 44 23 pm](https://user-images.githubusercontent.com/6967921/36068431-e3366186-0eab-11e8-9040-f2fd27305b3f.png)
 
 You can see the implementation in the package: com.practices.patterns.filter
+
+## **Decorator** Design Pattern in Java (Structural Design Pattern)
+
+Decorator pattern allows a user to add new functionality to an existing object without altering its structure. 
+This type of design pattern comes under structural pattern as this pattern acts as a wrapper to existing class.
+
+This pattern creates a decorator class which wraps the original class and provides additional functionality keeping 
+class methods signature intact.
+
+We are demonstrating the use of decorator pattern via following example in which we will decorate a shape 
+with some color without alter shape class.
+
+#### Implementation
+
+We're going to create a Shape interface and concrete classes implementing the Shape interface. We will then create 
+an abstract decorator class ShapeDecorator implementing the Shape interface and having Shape object as its instance variable.
+
+RedShapeDecorator is concrete class implementing ShapeDecorator.
+
+DecoratorPatternDemo, our demo class will use RedShapeDecorator to decorate Shape objects.
+
+![screen shot 2018-02-10 at 11 11 23 pm](https://user-images.githubusercontent.com/6967921/36068998-f8dbb8cc-0eb7-11e8-86df-1659aa5e82e3.png)
+
