@@ -167,3 +167,19 @@ our demo class will use Employee class to add department level hierarchy and pri
 ![screen shot 2018-02-09 at 12 35 00 pm](https://user-images.githubusercontent.com/6967921/36038671-b6f3c782-0d96-11e8-9aeb-56a5d5a37d38.png)
 
 You can see this example in the package: com.practices.patterns.composite
+
+## Filter Design Pattern in Java (Structural Design Pattern)
+
+Filter pattern or Criteria pattern is a design pattern that enables developers to filter a set of objects using 
+different criteria and chaining them in a decoupled way through logical operations. This type of design pattern 
+comes under structural pattern as this pattern combines multiple criteria to obtain single criteria.
+
+#### Implementation
+
+We're going to create a Person object, Criteria interface and concrete classes implementing this interface to filter 
+list of Person objects. CriteriaPatternDemo, our demo class uses Criteria objects to filter List of Person 
+objects based on various criteria and their combinations.
+
+![screen shot 2018-02-10 at 9 44 23 pm](https://user-images.githubusercontent.com/6967921/36068431-e3366186-0eab-11e8-9040-f2fd27305b3f.png)
+
+You can see the implementation in the package: com.practices.patterns.filter
